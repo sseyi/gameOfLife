@@ -1,0 +1,25 @@
+@import '~bootstrap/scss/bootstrap';
+
+.alive {
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: silver;
+}
+
+.dead {
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: black;
+}
+
+#table {
+  border: 0;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
